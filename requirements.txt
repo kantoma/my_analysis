@@ -1,0 +1,25 @@
+#jupyter
+# jupyter==1.0.0
+# jupyter-contrib-nbextensions==0.5.1
+# jupyterthemes==0.20.0
+
+# pandas==1.0.5
+# scikit-learn==0.23.1
+# seaborn==0.6.0
+
+#nlp
+spacy==2.3.5
+gensim==3.8.3
+ginza==4.0.5
+mecab-python3==1.0.3
+
+#other
+requests==2.24.0
+
+#boosting
+xgboost==1.1.1
+lightgbm==2.3.1
+catboost==0.23.2
+
+#umap
+umap-learn==0.4.6

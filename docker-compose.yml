@@ -1,0 +1,12 @@
+version: '3'
+services:
+  analysis:
+    build: .
+    image: my_jupyter
+    container_name: my_jupyter_container
+    environment:
+      GRANT_SUDO: "yes"
+    ports:
+      - 8890:8888
+    volumes:
+      - ./work:/home/work
